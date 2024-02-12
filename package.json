@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Dev Gundalia",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.35.1",
+    "fractional": "^1.0.0",
+    "parcel": "^2.11.0",
+    "regenerator-runtime": "^0.14.1",
+    "sass": "^1.70.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "@types/core-js": "^2.5.8",
+    "@types/regenerator-runtime": "^0.13.5"
+  }
+}
